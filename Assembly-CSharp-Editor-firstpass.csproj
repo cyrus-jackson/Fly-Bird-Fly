@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{65E63CC1-78A3-7817-3B74-0E22DF2786E8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\ES2AutoInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\ES2ClearPlayerPrefs.cs" />
+     <Compile Include="Assets\Plugins\Editor\ES2DefaultSettingsInspector.cs" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Easy Save 2\readme.txt" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\SocialNetworking\Manifest.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\main.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_loginbutton_blue.xml" />
+     <None Include="Assets\Plugins\Android\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Plugins\Easy Save 2\link.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Plugins\Android\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\crRPGSystem\Notes\SlidingMenusReadme.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\com_facebook_picker_title_bar.xml" />
+ <Reference Include="Prime31MenuItem">
+ <HintPath>Assets\Editor\Prime31\Prime31MenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2Standalone">
+ <HintPath>Assets\Plugins\ES2Standalone.dll</HintPath>
+ </Reference>
+ <Reference Include="MoodkieSecurity">
+ <HintPath>Assets\Plugins\MoodkieSecurity.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2">
+ <HintPath>Assets\Plugins\Easy Save 2\Libraries\ES2.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2IO">
+ <HintPath>Assets\Plugins\Easy Save 2\Libraries\ES2IO.dll</HintPath>
+ </Reference>
+ <Reference Include="ES2Settings">
+ <HintPath>Assets\Plugins\Easy Save 2\Libraries\ES2Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4DFF8B3F-55A8-A909-5297-D418CB153797}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
